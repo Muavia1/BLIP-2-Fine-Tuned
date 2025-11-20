@@ -1,4 +1,3 @@
-```markdown
 # BLIP-2 Fine-Tuned for Image Captioning 🖼️
 
 This repository contains code and notebooks to **fine-tune the BLIP-2** (Bootstrapped Language-Image Pretraining) model for image captioning on the **Flickr8k dataset**, using **PEFT (LoRA)** to enable efficient training.
@@ -16,31 +15,6 @@ This repository contains code and notebooks to **fine-tune the BLIP-2** (Bootstr
   - `datasets` for data loading :contentReference[oaicite:2]{index=2}  
   - `peft` for LoRA :contentReference[oaicite:3]{index=3}  
   - `bitsandbytes` (optional, for memory-efficient training) :contentReference[oaicite:4]{index=4}  
-
----
-
-## 📂 Repository Structure
-
-```
-
-BLIP-2-Fine-Tuned/
-│
-├── data/                  # Scripts or instructions to load / preprocess Flickr8k
-│
-├── notebooks/             # Jupyter notebooks for training & inference
-│   └── fine_tune.ipynb     # Notebook to fine-tune BLIP-2 using LoRA
-│
-├── src/
-│   ├── train.py            # Script to train / fine-tune the model
-│   ├── inference.py        # Script or module for inference
-│   ├── dataset.py          # Dataset classes and data loading utilities
-│   └── utils.py            # Helper functions (tokenizer, image transforms, etc.)
-│
-├── requirements.txt        # Python dependencies
-│
-└── README.md               # This file
-
-````
 
 ---
 
