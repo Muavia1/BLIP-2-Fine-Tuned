@@ -25,7 +25,6 @@ This repository contains code and notebooks to **fine-tune the BLIP-2** (Bootstr
    ```bash
    git clone https://github.com/Muavia1/BLIP-2-Fine-Tuned.git
    cd BLIP-2-Fine-Tuned
-````
 
 2. Create a Python environment (recommended):
 
@@ -139,8 +138,3 @@ This project is licensed under the **MIT License** – feel free to use, modify,
 
 ---
 
-
-Do you want me to add them?
-
-[1]: https://mseyfi.github.io/posts/VLM/BLIP2.html?utm_source=chatgpt.com "Learning Muse by Mehdi Seyfi"
-[2]: https://medium.com/%40muaviaijaz8/fine-tuning-blip-2-for-image-captioning-with-the-flickr8k-dataset-f4e4906a67d2?utm_source=chatgpt.com "Fine-Tuning BLIP-2 for Image Captioning with the Flickr8k Dataset | by Muavia Abdul Moiz | Medium"
